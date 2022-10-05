@@ -1,0 +1,111 @@
+.property-card-container{
+    background-color: #ffffff;
+    width: 300px;
+    border-radius: 8px;
+    margin-top: 30px;
+}
+
+.property-image{
+    width:300px;
+    height:200px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    cursor: pointer;
+}
+
+.property-details-container{
+    padding: 0px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.property-features-container{
+    padding: 0px 15px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.property-price{
+    color:#8a2be2;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.property-price>span{
+    font-size: 13px;
+    color:grey;
+    font-weight: normal;
+}
+
+.property-address{
+    color: grey;
+    font-size: 14px;
+}
+
+.property-line{
+    background-color:lightgrey;
+    height: 0.1px;
+    width: 90%;
+    border: none;
+}
+
+.property-features{
+    display: flex;
+    font-size: 12px;
+    align-items: center;
+}
+
+.features-detail{
+    margin-left: 5px;
+}
+
+.property-heart-icon{
+    align-self: flex-start;
+    margin-top: 20px;
+    color: #8a2be2;
+    border: lightgrey solid 0.5px;
+    padding-left: 3px;
+    padding-top: 1px;
+    padding-right: 3px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.features-icon{
+    color: #8a2be2;
+}
+
+.property-name{
+    cursor: pointer;
+}
+
+.popular-container{
+    margin-top: -25px;
+    z-index:1;
+    background-color: #8a2be2;
+    filter: blur(0px);
+    width: 90px;
+    padding: 0px 2px;
+    text-align: center;
+    margin-left: -6px;
+    display: flex;
+    align-items: center;
+    color:#ffffff;
+    font-size: 9px;
+    gap:3px;
+    justify-content: center;
+    border-bottom-left-radius: 3px;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    border:solid #ffffff 0.2px;
+}
+
+.popular-tag{
+    font-size:9px;
+    color:#ffffff;
+}
+
+

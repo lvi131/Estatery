@@ -1,0 +1,81 @@
+.filters-container{
+    display: flex;
+    
+    justify-content: space-between;
+    margin-top: 30px;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 5px;
+    font-family: 'Nunito', sans-serif;
+}
+
+.filters-label{
+    color: grey;
+    font-size: 12px;
+}
+
+.filters-button{
+    border: solid grey 1px;
+    border-radius: 3px;
+    padding: 6px;
+    width:120px;
+    cursor: pointer;
+    font-family: 'Nunito', sans-serif;
+    font-size: 15px;
+    background-color: #8a2be2;
+    color:#ffffff;
+    height: 38px;
+    align-self: flex-end;
+    margin-bottom: 3px;
+}
+
+.filters-date{
+  position: relative;
+  overflow: hidden;
+  background-color: white;
+  box-sizing: border-box;
+  color: #333;
+  cursor: pointer;
+  outline: none;
+  padding: 8px 0px 8px 0px;
+  transition: all 200ms ease;
+  border: none;
+  font-family: 'Nunito', sans-serif;
+}
+
+.filters-date:hover{
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.06);
+}
+
+.Dropdown-control{
+    cursor: pointer !important;
+    border: none !important;
+    padding-left: 0px !important;
+    font-size: 15px !important;
+}
+
+.filters-date-container{
+    display: flex;
+    align-items: center;
+}
+
+.date-icon{
+    margin-left: -25px;
+    z-index: 1;
+    color:#e3ccf8;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+
+.Dropdown-arrow{
+    border-color: #e3ccf8 transparent transparent !important;
+}
+
+.header-properties{
+    margin-top: 20px;
+    display: flex;
+    gap:30px;
+    flex-wrap: wrap;
+}
+

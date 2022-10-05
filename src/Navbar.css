@@ -1,0 +1,74 @@
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    margin: 0px 0px 2px 0px;
+    box-shadow: 0 4px 4px -6px black;
+    background-color: #ffffff;
+    position: sticky;
+    top:0;
+    z-index: 1000;
+}
+
+.nav-title{
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.nav-menu-container{
+    display: flex;
+}
+
+.nav-logo-container{
+    display: flex;
+    margin-right: 60px;
+    cursor: pointer;
+    align-items: center;
+}
+
+.nav-logo{
+    width:60px;
+    height: 25px;
+    color: #8a2be2;
+   
+}
+
+.nav-item{
+    display: flex;
+    margin-left:20px;
+    margin-right: 20px;
+    cursor: pointer;
+    align-items: center;
+    padding: 5px 10px ;
+}
+
+.nav-item-active{
+    color:#8a2be2;
+    background-color: #e3ccf8;
+}
+
+
+.nav-icon{
+    margin-left: 5px;
+}
+
+.nav-button{
+    background-color: transparent;
+    border: solid grey 1px;
+    border-radius: 5px;
+    padding: 6px;
+    margin-right: 20px;
+    width:80px;
+    color:#8a2be2;
+    cursor: pointer;
+    margin-top: 10px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 15px;
+}
+
+.nav-button-purple{
+    background-color: #8a2be2;
+    color:#ffffff;
+}

@@ -1,0 +1,27 @@
+.header-container{
+    background-color: #f9f4fe;
+    font-family: 'Nunito', sans-serif;
+    background-size: cover;
+    padding: 40px 150px;
+}
+
+.header-search{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-search-title{
+    font-size: 28px;
+}
+
+.header-search-bar{
+    font-family: 'Nunito', sans-serif;
+    padding: 10px;
+    border:solid grey 1px;
+    border-radius: 5px;
+}
+
+.header-search-bar:focus{
+    outline: none;
+}
